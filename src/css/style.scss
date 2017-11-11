@@ -11,45 +11,49 @@ body {
 }
 
 .page-banner {
+  padding-bottom: 10px;
   width: 100%;
 }
 
-a.nav-link {
-  //color: #ffffff;
-}
+//a.nav-link {
+//  color: white;
+//}
+//
+//li.nav-item {
+//  border-right: 2px solid #ffffff;
+//}
+//
+//li.nav-item:last-child {
+//  border-right: none;
+//}
 
 /*Responsive Navbar Text*/
 
 @include media-breakpoint-up(xs) {
   a.nav-link {
-    color: yellow;
   }
 }
 
 @include media-breakpoint-up(sm) {
   a.nav-link {
-    color: green;
     font-size: 1.2em;
   }
 }
 
 @include media-breakpoint-up(md) {
   a.nav-link {
-    color: blue;
     font-size: 1.4em;
   }
 }
 
 @include media-breakpoint-up(lg) {
   a.nav-link {
-    color: red;
     font-size: 2em;
   }
 }
 
 @include media-breakpoint-up(xl) {
   a.nav-link {
-    color: purple;
     font-size: 2.5em;
   }
 }

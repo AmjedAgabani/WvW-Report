@@ -6362,27 +6362,21 @@ body {
   text-transform: uppercase; }
 
 .page-banner {
+  padding-bottom: 10px;
   width: 100%; }
 
 /*Responsive Navbar Text*/
-a.nav-link {
-  color: yellow; }
-
 @media (min-width: 576px) {
   a.nav-link {
-    color: green;
     font-size: 1.2em; } }
 @media (min-width: 768px) {
   a.nav-link {
-    color: blue;
     font-size: 1.4em; } }
 @media (min-width: 992px) {
   a.nav-link {
-    color: red;
     font-size: 2em; } }
 @media (min-width: 1200px) {
   a.nav-link {
-    color: purple;
     font-size: 2.5em; } }
 
 /*# sourceMappingURL=style.css.map */
